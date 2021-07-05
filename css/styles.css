@@ -1,0 +1,88 @@
+/* Inter font */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap");
+
+/* colors */
+:root {
+  --primaryColor: #f2ac20;
+  --secondaryColor: #4265d6;
+  --accentColor: #293855;
+}
+
+/* Global styling */
+* {
+  font-family: "Inter", sans-serif;
+}
+
+/* General styling  */
+
+ul li {
+  list-style-type: none;
+}
+display-1 {
+  letter-spacing: 2px;
+}
+
+.container {
+  max-width: 1200px;
+}
+
+.bg-main {
+  background-color: var(--primaryColor);
+}
+
+.btn {
+  width: 160px;
+  padding: 0.6rem 0;
+  border: 2px solid #fff;
+  border-radius: 1.5rem;
+  -webkit-border-radius: 1.5rem;
+  -o-border-radius: 1.5rem;
+  -ms-border-radius: 1.5rem;
+  -moz-border-radius: 1.5rem;
+  color: #fff;
+}
+
+.bg-grey {
+  background-color: var(--accentColor);
+}
+
+.circle-icon {
+  width: 55px;
+  height: 55px;
+  border-radius: 55%;
+  background-color: var(--primaryColor);
+  -webkit-border-radius: 55%;
+  -o-border-radius: 55%;
+  -ms-border-radius: 55%;
+  -moz-border-radius: 55%;
+}
+
+.lh-lg {
+  line-height: 1.7 !important;
+}
+
+/* HEADER */
+
+header {
+  height: 100vh;
+}
+
+.navbar-brand .fa {
+  font-size: 1.8rem;
+}
+.nav-icons p {
+  font-size: 1rem;
+  margin-right: 0.6rem;
+}
+.nav-icons {
+  font-size: 1.2rem;
+}
+
+.btn-header:hover {
+  background-color: #fff;
+  color: var(--primaryColor);
+}
+
+.phone-img img {
+  width: 500px;
+}
