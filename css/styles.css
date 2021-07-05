@@ -107,4 +107,14 @@ header {
   width: 500px;
 }
 
-/*  */
+/* Section 6 */
+
+#sec-6 {
+  background: linear-gradient(rgba(242, 172, 32, 0.904), rgba(242, 172, 32, 0.904)),
+    url(../assets/section-6-bg.jpg) center / cover no-repeat;
+}
+
+#sec-6 .circle-icon {
+  width: 95px;
+  height: 95px;
+}
