@@ -44,7 +44,7 @@ header .btn {
   color: #fff;
 }
 
-.bg-grey {
+.bg-second {
   background-color: var(--secondaryColor);
 }
 
@@ -117,4 +117,9 @@ header {
 #sec-6 .circle-icon {
   width: 95px;
   height: 95px;
+}
+/* Section 7  */
+
+#sec-7 .card {
+  border: none;
 }
