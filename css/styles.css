@@ -123,3 +123,9 @@ header {
 #sec-7 .card {
   border: none;
 }
+
+/* Section 8  */
+
+#sec-8 .carousel-item img {
+  width: 180px;
+}
