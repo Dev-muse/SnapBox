@@ -77,6 +77,9 @@ header .btn {
 .text-section {
   color: var(--primaryColor);
 }
+.text-section-2 {
+  color: var(--secondaryColor);
+}
 
 i:hover {
   color: var(--accentColor);
@@ -110,7 +113,7 @@ header {
 /* Section 6 */
 
 #sec-6 {
-  background: linear-gradient(rgba(242, 172, 32, 0.904), rgba(242, 172, 32, 0.904)),
+  background: linear-gradient(rgba(66, 101, 214, 0.904), rgba(66, 101, 214, 0.904)),
     url(../assets/section-6-bg.jpg) center / cover no-repeat;
 }
 
@@ -128,4 +131,32 @@ header {
 
 #sec-8 .carousel-item img {
   width: 180px;
+}
+
+/* Section 9 */
+.pricing-item {
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+  overflow: hidden;
+  max-width: 340px;
+}
+.pricing-title {
+  background-color: var(--secondaryColor);
+}
+
+.pricing-price,
+.pricing-item li {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 0.9rem 0;
+}
+
+.pricing-item .btn:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.bg-white-section {
+  background-color: #fff;
 }
